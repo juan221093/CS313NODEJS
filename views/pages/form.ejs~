@@ -2,14 +2,11 @@
 <html>
 
 <head>
-    <title>Postage Calculator</title>
+    <title>Postage Calculation</title>
 </head>
 
 <body>
-    <h1 style="color:blue;">Postage Calculator Form</h1>
-
-    <hr>
-
+    <h1>Postage Calculation Form</h1>
     <form method="get" action="/postage">
         <select name="mail">
             <option>Letters (Stamped)</option>
@@ -21,7 +18,6 @@
 
         Weight    <input type="text" name="weight"> oz.<br>
         <button type="submit">Calculate</button>
-<hr>
     </form>
 </body>
 
